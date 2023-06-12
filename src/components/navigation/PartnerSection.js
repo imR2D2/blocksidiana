@@ -8,14 +8,14 @@ import { Fade } from "@successtar/react-reveal";
 
 export default function PartnerSection() {
 	return (
-		<section className="px-6">
-			<div className="rounded-3xl bg-gradient-to-b from-[   olajgjhgjh#FFFFFF] to-[#F4F9FF] py-20">
+		<section className="px-6 dark:bg-gradient-to-b from-[black] to-[rgb(15,23,42)]">
+			<div className="rounded-3xl py-20">
 				<div className="container mx-auto">
 					<div className="text-center mb-4">
-						<h2 className="text-3xl font-bold mb-4">
+						<h2 className="text-3xl font-bold mb-4 dark:text-whitee-900">
 							Trusted Partners Worldwide
 						</h2>
-						<p className="text-gray">
+						<p className="text-gray dark:text-whitee-700">
 							We're partners with countless major organisations around the globe
 						</p>
 					</div>

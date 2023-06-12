@@ -16,12 +16,13 @@ const Contacto = () => {
   };
 
   return (
-    <div className="">
-      <div className="max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center mt-20">
+    <div className="dark:bg-gradient-to-b from-[black] to-[rgb(15,23,42)]">
+      <br />
+      <div className="-mt-16 max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl mt-40 font-bold tracking-tight text-gray-900 dark:text-whitee-900 text-center ">
           Contact 
         </h2>
-        <p className="mt-4 text-lg text-gray-500">
+        <p className="mt-4 text-lg text-gray-500 dark:text-whitee-700">
         If you have any questions or suggestions, send us a message!
         </p>
         <form className="mt-9" onSubmit={handleSubmit}>
@@ -29,7 +30,7 @@ const Contacto = () => {
             <div>
               <label
                 htmlFor="nombre"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-whitee-400"
               >
                 Your Name
               </label>
@@ -48,7 +49,7 @@ const Contacto = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-whitee-400"
               >
                 Your Email
               </label>
@@ -67,7 +68,7 @@ const Contacto = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="mensaje"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-whitee-400"
               >
                 Message
               </label>
@@ -76,7 +77,7 @@ const Contacto = () => {
                   id="mensaje"
                   name="mensaje"
                   rows="4"
-                  className="py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md bg-gray-200"
+                  className="py-2 px-4 block w-full shadow-sm text-gray-900 focus:ring-blue-500 focus:border-blue-500 border-gray-300 rounded-md bg-gray-200"
                   value={mensaje}
                   onChange={(e) => setMensaje(e.target.value)}
                 ></textarea>
@@ -85,16 +86,18 @@ const Contacto = () => {
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 border-2 rounded-full shadow-sm text-base font-medium  border-gray-700 dark:border-white hover:bg-gray-700 dark:hover:bg-white hover:text-white dark:hover:text-black dark:text-white transition dark: duration-300"
+                className="w-full inline-flex items-center justify-center px-6 py-3 border-2 rounded-full shadow-sm text-base font-medium  border-gray-700 dark:border-white dark:hover:border-purplee-900  hover:bg-purplee-900 dark:hover:bg-purplee-900 hover:text-whitee-900 dark:hover:text-whitee-900 dark:text-whitee-900 transition dark: duration-1000"
               >
                 Send Email!
               </button>
-
             </div>
           </div>
         </form>
       </div>
-    </div>
+
+
+      
+      </div>
   );
 };
 

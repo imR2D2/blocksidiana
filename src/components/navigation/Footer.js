@@ -10,11 +10,10 @@ const navigation = {
 		{ name: "Commerce", href: "#" },
 		{ name: "Insights", href: "#" },
 	],
-	support: [{ name: "Contacto", href: "/contacto" }],
+	support: [{ name: "Contact", href: "/contacto" }],
 	company: [
 		{ name: "About", href: "/About" },
 		{ name: "Blog", href: "/blog" },
-		{ name: "Portafolio", href: "/portafolio" },
 	],
 	legal: [
 		{ name: "Claim", href: "#" },
@@ -37,7 +36,7 @@ const navigation = {
 		},
 		{
 			name: "GitHub",
-			href: "https://github.com/imR2D2",
+			href: "https://github.com/imR2D2/blocksidiana",
 			icon: (props) => (
 				<svg fill="currentColor" viewBox="0 0 24 24" {...props}>
 					<path
@@ -54,7 +53,7 @@ const navigation = {
 const Footer = () => {
 	return (
 		<footer
-			className="bg-gray-50 dark:bg-gray-900"
+			className="bg-gray-50 dark:bg-gradient-to-b from-[rgb(15,23,42)] to-[black]"
 			aria-labelledby="footer-heading"
 		>
 			<div className="mx-auto max-w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -135,7 +134,7 @@ const Footer = () => {
 				</div>
 				<div className="mt-12 border-t border-gray-200 pt-8">
 					<p className="footerDescription text-center">
-						&copy; 2023 RTR, Inc. All rights reserved.
+						&copy; 2023 Blocksidian, Inc. All rights reserved.
 					</p>
 				</div>
 			</div>

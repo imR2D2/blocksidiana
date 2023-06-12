@@ -7,8 +7,7 @@ import { Popover, Transition } from "@headlessui/react";
 
 import DarkModeSwitch from "../items/DarkMode";
 import cv from "../../assets/pdf/CVi.pdf";
-import logoN from "../../assets/img/logoN.png";
-import logoB from "../../assets/img/logoB.png";
+import obsidiana from "../../assets/img/obsidian.png"
 
 const solutions = [
 	{
@@ -19,18 +18,12 @@ const solutions = [
 	},
 	{
 		name: "About Us",
-
 		href: "/about",
 		icon: IconTwo,
 	},
 	{
-		name: "Blog",
-		href: "/jijijija",
-		icon: IconThree,
-	},
-	{
 		name: "Contact",
-		href: "/contacto",
+		href: "/contact",
 		icon: IconThree,
 	},
 ];
@@ -62,29 +55,29 @@ const Navbar = () => {
 	return (
 		<div
 			id="navbar"
-			className="fixed bg-white dark:bg-black w-full top-0 z-50 px-4 py-5 transition duration-300"
+			className="fixed bg-whitee-700 dark:bg-black w-full top-0 z-50 px-4 py-5 transition duration-300"
 		>
 			<div className="ml-6 -mt-3 flex flex-wrap items-center sm:flex-nowrap">
 				<Link to="/" className="-ml-4 mt-2 flex flex-1">
-					<img src={logoN} className="block dark:hidden w-12 sm:w-14"></img>
-					<img src={logoB} className="hidden dark:block w-12 sm:w-14"></img>
+					<img src={obsidiana} className="block dark:hidden w-12 sm:w-14"></img>
+					<img src={obsidiana} className="hidden dark:block w-12 sm:w-14"></img>
 				</Link>
 
 				<div id="menu" className="hidden md-1:block ml-4 mt-2 flex-shrink-0">
 					<NavLink to="/" className="navBar">
 						Home
 					</NavLink>
-					<NavLink to="/about" className="navBar">
+					<NavLink to="" className="navBar">
 						About Us
 					</NavLink>
 					{/* <NavLink to="/blog" className="navBar">Blog</NavLink> */}
-					<NavLink to="/contacto" className="navBar">
+					<NavLink to="/contact" className="navBar">
 						Contact
 					</NavLink>
 					<a download="CV_Arturo Hernández Bueno" href={cv}>
 						<button
 							type="button"
-							className="text-sm border-2 rounded-full px-6 py-1.5 ml-3 font-medium text-purple-400 border-purple-400 hover:bg-purple-800 hover:border-purple-800 hover:text-white dark:hover:text-black dark:text-white transition duration-700"
+							className="text-sm border-2 rounded-full px-6 py-1.5 ml-3 font-medium text-purplee-400 border-purplee-400 hover:bg-purplee-800 hover:border-purplee-800 hover:text-whitee-900 dark:hover:text-black dark:text-whitee-900 transition duration-700"
 						>
 							Sign Up
 						</button>
@@ -92,7 +85,7 @@ const Navbar = () => {
 					<a download="CV_Arturo Hernández Bueno" href={cv}>
 						<button
 							type="button"
-							className="text-sm border-2 rounded-full px-8 py-2 ml-3 border-none font-medium text-white bg-purple-400 hover:bg-purple-800 transition duration-700"
+							className="text-sm border-2 rounded-full px-8 py-2 ml-3 border-none font-medium text-whitee-900 bg-purplee-400 hover:bg-purplee-800 transition duration-700"
 						>
 							Log In
 						</button>
@@ -133,14 +126,14 @@ const Navbar = () => {
 					>
 						<Popover.Panel className="absolute -left-24 z-10 mt-3 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl">
 							<div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-								<div className="relative grid gap-8 bg-white p-7 lg:grid-cols-2">
+								<div className="relative grid gap-8 bg-whitee-900 p-7 lg:grid-cols-2">
 									{solutions.map((item) => (
 										<Link
 											key={item.name}
 											to={item.href}
 											className="-m-3 flex items-center rounded-lg p-2 transition duration-150 ease-in-out hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50"
 										>
-											<div className="flex h-10 w-10 shrink-0 items-center justify-center text-white sm:h-12 sm:w-12">
+											<div className="flex h-10 w-10 shrink-0 items-center justify-center text-whitee-900 sm:h-12 sm:w-12">
 												<item.icon aria-hidden="true" />
 											</div>
 											<div className="ml-4">
@@ -153,16 +146,6 @@ const Navbar = () => {
 											</div>
 										</Link>
 									))}
-								</div>
-								<div className="bg-gray-50 p-4 flex justify-center">
-									<a download="CV_Arturo Hernández Bueno" href={cv}>
-										<button
-											type="button"
-											className="text-sm border-2 rounded-full px-2 py-1 border-gray-700 dark:border-white ml-3 font-medium hover:bg-gray-700 dark:hover:bg-white hover:text-white dark:hover:text-black dark:text-white transition dark: duration-300"
-										>
-											Download CV
-										</button>
-									</a>
 								</div>
 							</div>
 						</Popover.Panel>

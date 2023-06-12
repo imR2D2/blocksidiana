@@ -3,8 +3,9 @@ import Navbar from "../../components/navigation/Navbar"
 import Layout from "../../hocs/layouts/Layout"
 import HeroSection from "../../components/navigation/HeroSection"
 import PartnerSection from "../../components/navigation/PartnerSection"
-import Prueba from "../../components/navigation/Jija.js"
+import About from "../../components/navigation/About"
 import Steps from "../../components/navigation/Steps"
+import Video from "../../components/navigation/videoPresentation"
 
 
 const Home = () =>{
@@ -13,8 +14,9 @@ const Home = () =>{
             <div>
                 <Navbar />
                 <HeroSection />
-                <Prueba />
                 <PartnerSection />
+                <About />
+                <Video />
                 <Steps />
             </div>
             <Footer />

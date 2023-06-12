@@ -9,7 +9,7 @@ import { Fade } from "@successtar/react-reveal";
 export default function StepSection() {
 	return (
 		<section className="px-6">
-			<div className="rounded-3xl bg-gradient-to-b from-[#FFFFFF] to-[#F4F9FF] py-20">
+			<div className="rounded-3xl py-20">
 				<div className="container mx-auto text-center">
 					<h2 className="font-bold text-4xl mb-6 leading-normal">
 						Get started in just a few minutes
