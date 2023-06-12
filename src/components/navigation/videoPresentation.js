@@ -2,7 +2,7 @@ import { Fade } from "@successtar/react-reveal";
 
 const Video = () => {
   return (
-    <div className="relative mx-auto max-w-2/5 mb-4 -mt-16 sm:mb-34 sm:mt-16 bg-whitee-900 dark:bg-slatee-900">
+    <div className="relative mx-auto max-w-2/5 mb-4 -mt-16 sm:mb-34 sm:mt-16 bg-white dark:bg-slatee-900">
       <Fade duration={2000}>
         <video
           src=""

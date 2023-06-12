@@ -8,7 +8,7 @@ import { Fade } from "@successtar/react-reveal";
 
 export default function StepSection() {
 	return (
-		<section className="px-6 bg-whitee-900 dark:bg-slatee-900">
+		<section className="px-6 bg-white dark:bg-slatee-900">
 			<div className="rounded-3xl py-20">
 				<div className="container mx-auto text-center">
 					<h2 className="font-bold text-2xl sm:text-4xl mb-6 leading-normal text-black dark:text-whitee-900">

@@ -6,7 +6,7 @@ import obsidiana from "../../assets/img/obsidian.png"
 
 export default function HeroSection() {
 	return (
-		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-whitee-900 dark:bg-black'>
+		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-white dark:bg-black'>
 			<span className="z-20 absolute bg-purplee-400 right-16 sm:right-28 top-30 sm:top-36 opacity-[20%] dark:opacity-[4%] sm:opacity-[70%] h-[320px] sm:h-[450px] rounded-full blur-3xl animate-pulse bg-gradient-to-br from-primary to-secondary delay-700 duration-2000 aspect-square" />
 			<div className="relative">
 				<img
