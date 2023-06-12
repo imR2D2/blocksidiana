@@ -6,13 +6,13 @@ import obsidiana from "../../assets/img/obsidian.png"
 
 export default function HeroSection() {
 	return (
-		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-whitee-700 dark:bg-black'>
-			<span className="z-20 absolute bg-purplee-400 right-28 top-36 rounded-full opacity-[70%] blur-3xl animate-pulse bg-gradient-to-br from-primary to-secondary delay-700 duration-2000 aspect-square h-[450px]" />
+		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-whitee-900 dark:bg-black'>
+			<span className="z-20 absolute bg-purplee-400 right-16 sm:right-28 top-30 sm:top-36 opacity-[20%] dark:opacity-[4%] sm:opacity-[70%] h-[320px] sm:h-[450px] rounded-full blur-3xl animate-pulse bg-gradient-to-br from-primary to-secondary delay-700 duration-2000 aspect-square" />
 			<div className="relative">
 				<img
 					src={obsidiana}
 					alt="Imagen superpuesta"
-					className="z-40 absolute top-16 right-36 w-80"
+					className="z-40 absolute top-16 right-36 w-80 hidden md:block"
 				/>
 			</div>
 

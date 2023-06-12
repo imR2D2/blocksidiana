@@ -1,21 +1,17 @@
 import { Fade } from "@successtar/react-reveal";
 
 const Video = () => {
-    return( 
-                <div className="mx-auto mb-20 -mt-16 sm:mb-64 sm:mt-16 h-40 bg-whitee-700 dark:bg-slate-90" style={{ width: '94%' }}>
-					<Fade duration={2000}>
-						<iframe
-							width="100%"
-							height="450"
-							src="https://www.youtube.com/embed/bOptMhjGhpo"
-							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							allowfullscreen
-						></iframe>
-					</Fade>
-				</div>
-    )
-}
+  return (
+    <div className="relative mx-auto max-w-2/5 mb-4 -mt-16 sm:mb-34 sm:mt-16 bg-whitee-900 dark:bg-slatee-900">
+      <Fade duration={2000}>
+        <video
+          src=""
+          className="w-4/5 md:w-4/6 h-auto m-auto"
+          controls
+        />
+      </Fade>
+    </div>
+  );
+};
 
 export default Video

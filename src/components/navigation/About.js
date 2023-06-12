@@ -3,7 +3,7 @@ import { Fade } from "@successtar/react-reveal";
 
 export default function About() {
   return (
-    <section className="overflow-hidden bg-whitee-700 dark:bg-slatee-900 py-20 sm:grid sm:grid-cols-2">
+    <section className="overflow-hidden bg-whitee-900 dark:bg-slatee-900 py-20 sm:grid sm:grid-cols-2">
       <div className="relative">
         <Fade duration={2000}>
         <img

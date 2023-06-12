@@ -1,7 +1,6 @@
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import logoN from "../../assets/img/logoN.png";
-import logoB from "../../assets/img/logoB.png";
+import obsidiana from "../../assets/img/obsidian.png";
 
 const navigation = {
 	solutions: [
@@ -53,7 +52,7 @@ const navigation = {
 const Footer = () => {
 	return (
 		<footer
-			className="bg-gray-50 dark:bg-gradient-to-b from-[rgb(15,23,42)] to-[black]"
+			className="bg-gray-100 dark:bg-gradient-to-b from-[rgb(15,23,42)] to-[black]"
 			aria-labelledby="footer-heading"
 		>
 			<div className="mx-auto max-w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -62,8 +61,7 @@ const Footer = () => {
 						to="/"
 						className="inline-block justify-center nav-link space-y-8 xl:col-span-1"
 					>
-						<img src={logoN} className="block dark:hidden w-12 sm:w-14"></img>
-						<img src={logoB} className="hidden dark:block w-12 sm:w-14"></img>
+						<img src={obsidiana} className="w-12 sm:w-14"></img>
 						<div className="flex space-x-4">
 							{navigation.social.map((item) => (
 								<a
