@@ -1,11 +1,16 @@
 import { connect } from "react-redux";
+import { motion } from 'framer-motion';
 
 
 const Layout = ({children}) => {
     return (
-        <div className="dark:bg-slate-900">
+        <motion.div className="dark:bg-slate-900"
+        initial={{opacity: 1, transition:{duration:0.1}}}
+        animate={{opacity: 1, transition:{duration:0.1}}}
+        exit={{opacity: 1, transition:{duration:0.1}}}
+        >
             {children}
-        </div>
+        </motion.div>
     )
 }
 

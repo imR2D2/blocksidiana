@@ -1,27 +1,28 @@
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import store from './store'
+import { BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-dom'
+import { Helmet, HelmetProvider} from 'react-helmet-async';
 import { Provider } from 'react-redux'
-import Error404 from './containers/errors/Error404'
-import Home from './containers/pages/Home'
-import Contacto from './containers/pages/Contacto'
-import CommingSoon from "./containers/pages/ComingSoon"
+import store from './store'
+import Routess from './Routes';
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
-        <Routes>
-          {/* Error Display*/}
-          <Route path="*" element={<Error404 />} />
+    <HelmetProvider>
+      <Helmet>
+        <title>Blocksidian | Tickets</title>
+        <meta name='description' content='Buy and sell tickets with solidity' />
+        <meta name='keywords' content='blocksidian, blockchain' />
+        <meta name='robots' content="all" />
+        <meta name='author' content='Blocksidian' />
+        <meta name='publisher' content='Blocksidian' />
+      </Helmet>
 
-          {/* Home Display*/}
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contacto />} />
-          <Route path="/comingsoon" element={<CommingSoon />} />
-
-        </Routes>
-      </Router>
-    </Provider>
+      <Provider store={store}>
+          <Router>
+            <Routess />
+          </Router>
+        </Provider>
+    </HelmetProvider>
+    
   );
 }
 
