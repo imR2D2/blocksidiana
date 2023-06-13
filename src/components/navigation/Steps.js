@@ -29,10 +29,9 @@ export default function StepSection() {
 										className="hidden md:block absolute top-1/2 -right-36"
 									/>
 								</div>
-								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Sign Up</h3>
+								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Explore Eventss</h3>
 								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
-									Buy Bitcoin or Ethereum, then securely store it in your Wallet
-									or send it on easily to friends.
+									Explore our wide selection of events and choose the one you like the most.
 								</p>
 							</div>
 						</Fade>
@@ -50,27 +49,46 @@ export default function StepSection() {
 										className="hidden md:block absolute top-1/2 -right-36"
 									/>
 								</div>
-								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Fund</h3>
-								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
-									Choose your preferred payment method such as bank transfer or
-									credit card to top up your NEFA Wallet.
+								<h3 className="text-2xl font-bold mb-4 mt-0 sm:mt-9 text-black dark:text-whitee-900">Buy Tickets</h3>
+								<p className="text-gray text-justify max-w-sm mt-0 sm:mt-12 text-blackk-700 dark:text-whitee-400">
+									Select the number of tickets you want and make a secure transaction with our blockchain technology.
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={1000}>
+						<Fade up delay={500}>
+							<div className="text-center relative px-4">
+								<div className="relative">
+									<img
+										src={okayImage}
+										className="mt-10 sm:mt-0 mb-4 mx-auto hover:-translate-y-6 hover:scale-105 transition-all duration-300"
+										alt=""
+									/>
+									<img
+										src={arrow}
+										alt=""
+										className="hidden md:block absolute top-1/2 -right-36"
+									/>
+								</div>
+								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Validate your Tickets</h3>
+								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
+									Once the purchase is made, your tickets will be linked to your blockchain identity, which guarantees their authenticity and avoids duplicity.
+								</p>
+							</div>
+						</Fade>
+						<Fade up delay={500}>
 							<div className="text-center relative px-4">
 								<img
 									src={okayImage}
 									className="mt-10 sm:mt-0 mb-4 mx-auto hover:-translate-y-6 hover:scale-105 transition-all duration-300"
 									alt=""
 								/>
-								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Buy Crypto</h3>
+								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Enjoy your Event</h3>
 								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
-									Sign up for your free NEFA Wallet on web, iOS or Android and
-									follow our easy process to set up your profile.
+									Arrive at the event with complete confidence, knowing that your tickets are legitimate and that you have contributed to the fight against counterfeit tickets.
 								</p>
 							</div>
 						</Fade>
+
 					</div>
 				</div>
 			</div>

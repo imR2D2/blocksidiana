@@ -5,8 +5,7 @@ import { useState, Fragment } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Popover, Transition } from "@headlessui/react";
 
-import DarkModeSwitch from "../items/DarkMode";
-import cv from "../../assets/pdf/CVi.pdf";
+import DarkModeSwitch from "../items/DarkMode";	
 import obsidiana from "../../assets/img/obsidian.png"
 
 const solutions = [
@@ -74,7 +73,7 @@ const Navbar = () => {
 					<NavLink to="/contact" className="navBar">
 						Contact
 					</NavLink>
-					<a download="CV_Arturo Hernández Bueno" href={cv}>
+					<a download="CV_Arturo Hernández Bueno" href="">
 						<button
 							type="button"
 							className="text-sm border-2 rounded-full px-6 py-1.5 ml-3 font-medium text-purplee-400 border-purplee-400 hover:bg-purplee-800 hover:border-purplee-800 hover:text-whitee-900 dark:hover:text-black dark:text-whitee-900 transition duration-700"
@@ -82,7 +81,7 @@ const Navbar = () => {
 							Sign Up
 						</button>
 					</a>
-					<a download="CV_Arturo Hernández Bueno" href={cv}>
+					<a download="CV_Arturo Hernández Bueno" href="">
 						<button
 							type="button"
 							className="text-sm border-2 rounded-full px-8 py-2 ml-3 border-none font-medium text-whitee-900 bg-purplee-400 hover:bg-purplee-800 transition duration-700"

@@ -3,6 +3,7 @@ import { Fade } from "@successtar/react-reveal";
 
 export default function About() {
   return (
+<<<<<<< HEAD
     <section className="overflow-hidden bg-white dark:bg-slatee-900 py-20 sm:grid sm:grid-cols-2">
       <div className="relative">
         <Fade duration={2000}>
@@ -15,6 +16,11 @@ export default function About() {
       </div>
       <div className="p-8 md:p-12 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+=======
+    <section className="overflow-hidden bg-whitee-900 dark:bg-slatee-900 py-20 -mt-28 sm:-mt-32 sm:-mb-52">
+      <div className="p-8 md:p-12 lg:px-16 lg:py-24 w-5/6 m-auto">
+        <div className="mx-auto text-center ltr:sm:text-left rtl:sm:text-right">
+>>>>>>> staging
           <Fade duration={2000}>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-whitee-900 md:text-4xl">
               About
