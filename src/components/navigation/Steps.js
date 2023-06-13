@@ -70,7 +70,7 @@ export default function StepSection() {
 										className="w-28 hidden md:block absolute top-1/2 -right-28"
 									/>
 								</div>
-								<h3 className="text-xl font-bold mb-4 text-black dark:text-whitee-900">Validate Tickets</h3>
+								<h3 className="text-xl font-bold mt-8 mb-4 text-black dark:text-whitee-900">Validate Tickets</h3>
 								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
 									Once the purchase is made, your tickets will be linked to your blockchain identity, which guarantees their authenticity and avoids duplicity.
 								</p>
@@ -83,7 +83,7 @@ export default function StepSection() {
 									className="w-44 mt-10 sm:mt-0 mb-4 mx-auto hover:-translate-y-6 hover:scale-105 transition-all duration-300"
 									alt=""
 								/>
-								<h3 className="text-lg font-bold mb-4 text-black dark:text-whitee-900">Enjoy your Event</h3>
+								<h3 className="text-lg font-bold mt-12 mb-4 text-black dark:text-whitee-900">Enjoy your Event</h3>
 								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
 									Arrive at the event with complete confidence, knowing that your tickets are legitimate and that you have contributed to the fight against counterfeit tickets.
 								</p>
