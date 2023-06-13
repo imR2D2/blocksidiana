@@ -12,7 +12,7 @@ export default function HeroSection() {
 				<img
 					src={obsidiana}
 					alt="Imagen superpuesta"
-					className="z-40 absolute top-16 right-36 w-80 hidden md:block"
+					className="z-40 absolute top-16 right-36 w-80 hidden xl:block"
 				/>
 			</div>
 
