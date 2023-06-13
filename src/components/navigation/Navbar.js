@@ -6,7 +6,8 @@ import { NavLink, Link } from "react-router-dom";
 import { Popover, Transition } from "@headlessui/react";
 
 import DarkModeSwitch from "../items/DarkMode";	
-import obsidiana from "../../assets/img/obsidian.png"
+import obsidiana from "../../assets/img/logo3.1.png"
+import obsidianaBlanco from "../../assets/img/LogotipoBlanco.png"
 
 const solutions = [
 	{
@@ -58,8 +59,8 @@ const Navbar = () => {
 		>
 			<div className="ml-6 -mt-3 flex flex-wrap items-center sm:flex-nowrap">
 				<Link to="/" className="-ml-4 mt-2 flex flex-1">
-					<img src={obsidiana} className="block dark:hidden w-12 sm:w-14"></img>
-					<img src={obsidiana} className="hidden dark:block w-12 sm:w-14"></img>
+					<img src={obsidiana} className="block dark:hidden w-12 sm:w-40"></img>
+					<img src={obsidianaBlanco} className="hidden dark:block w-12 sm:w-32"></img>
 				</Link>
 
 				<div id="menu" className="hidden md-1:block ml-4 mt-2 flex-shrink-0">
