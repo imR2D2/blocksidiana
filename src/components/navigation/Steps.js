@@ -49,8 +49,8 @@ export default function StepSection() {
 										className="hidden md:block absolute top-1/2 -right-36"
 									/>
 								</div>
-								<h3 className="text-2xl font-bold mb-4 mt-0 sm:mt-9 text-black dark:text-whitee-900">Buy Tickets</h3>
-								<p className="text-gray text-justify max-w-sm mt-0 sm:mt-12 text-blackk-700 dark:text-whitee-400">
+								<h3 className="text-2xl font-bold mb-4 text-black dark:text-whitee-900">Buy Tickets</h3>
+								<p className="text-gray text-justify max-w-sm text-blackk-700 dark:text-whitee-400">
 									Select the number of tickets you want and make a secure transaction with our blockchain technology.
 								</p>
 							</div>

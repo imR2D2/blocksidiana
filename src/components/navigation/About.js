@@ -3,7 +3,7 @@ import { Fade } from "@successtar/react-reveal";
 
 export default function About() {
   return (
-    <section className="overflow-hidden bg-whitee-900 dark:bg-slatee-900 py-20">
+    <section className="overflow-hidden bg-white dark:bg-slatee-900 py-20">
       <div className="p-8 md:p-12 lg:px-16 lg:py-24 mx-auto w-4/5">
         <div className="text-center ltr:sm:text-left rtl:sm:text-right">
           <Fade duration={2000}>
