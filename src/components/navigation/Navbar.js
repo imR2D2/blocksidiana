@@ -6,8 +6,9 @@ import { NavLink, Link } from "react-router-dom";
 import { Popover, Transition } from "@headlessui/react";
 
 import DarkModeSwitch from "../items/DarkMode";	
-import obsidiana from "../../assets/img/logo3.1.png"
-import obsidianaBlanco from "../../assets/img/LogotipoBlanco.png"
+import obsidiana from "../../assets/img/logoBlack.png"
+import obsidianaBlanco from "../../assets/img/logoWhite.png"
+
 
 const solutions = [
 	{
@@ -29,6 +30,15 @@ const solutions = [
 ];
 
 const Navbar = () => {
+
+	//Scroll para seccion About
+	const scrollToSection = (sectionId) => {
+		const section = document.getElementById(sectionId);
+		if (section) {
+			section.scrollIntoView({ behavior: "smooth" });
+		}
+	}
+
 	//Activar Scroll
 	window.onscroll = function () {
 		scrollFunction();
@@ -52,22 +62,24 @@ const Navbar = () => {
 
 	const [open, setOpen] = useState(false);
 
+
+	
 	return (
 		<div
 			id="navbar"
 			className="fixed bg-white dark:bg-black w-full top-0 z-50 px-4 py-3 transition duration-300"
 		>
-			<div className="ml-6 -mt-3 flex flex-wrap items-center sm:flex-nowrap">
+			<div className="ml-6 -mt-2 flex flex-wrap items-center sm:flex-nowrap">
 				<Link to="/" className="-ml-4 mt-2 flex flex-1">
-					<img src={obsidiana} className="block dark:hidden w-12 sm:w-40"></img>
-					<img src={obsidianaBlanco} className="hidden dark:block w-12 sm:w-32"></img>
+					<img src={obsidiana} className="block dark:hidden ml-0 sm:ml-8 w-28 sm:w-32"></img>
+					<img src={obsidianaBlanco} className="hidden dark:block ml-0 sm:ml-8 w-28 sm:w-32"></img>
 				</Link>
 
 				<div id="menu" className="hidden md-1:block ml-4 mt-2 flex-shrink-0">
 					<NavLink to="/" className="navBar">
 						Home
 					</NavLink>
-					<NavLink to="" className="navBar">
+					<NavLink onClick={() => scrollToSection("aboutUs")} className="navBar">
 						About Us
 					</NavLink>
 					{/* <NavLink to="/blog" className="navBar">Blog</NavLink> */}

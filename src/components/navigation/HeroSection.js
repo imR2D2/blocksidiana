@@ -5,6 +5,13 @@ import jua from "../../assets/img/bottonPlay.svg"
 import obsidiana from "../../assets/img/LogoHexagon.png"
 
 export default function HeroSection() {
+		//Scroll para seccion Presentation
+		const scrollToSection = (sectionId) => {
+			const section = document.getElementById(sectionId);
+			if (section) {
+				section.scrollIntoView({ behavior: "smooth" });
+			}
+		}
 	return (
 		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-white dark:bg-black'>
 			<span className="z-20 absolute bg-purplee-400 right-16 sm:right-28 top-30 sm:top-36 opacity-[20%] dark:opacity-[4%] sm:opacity-[70%] h-[320px] sm:h-[450px] rounded-full blur-3xl animate-pulse bg-gradient-to-br from-primary to-secondary delay-700 duration-2000 aspect-square" />
@@ -41,7 +48,7 @@ export default function HeroSection() {
 									More Information
 								</Link>
 
-								<button className="md:ml-5 text-md py-2 px-4 border-none transition duration-800 text-black dark:text-whitee-900 flex items-center">
+								<button onClick={() => scrollToSection("presentation")} className="md:ml-5 text-md py-2 px-4 border-none transition duration-800 text-black dark:text-whitee-900 flex items-center">
 									<div className="w-7 h-7 mr-2">
 									<img src={jua} className="w-full h-full" alt="Presentation" />
 									</div>
