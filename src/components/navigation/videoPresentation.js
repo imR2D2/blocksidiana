@@ -8,7 +8,7 @@ const Video = () => {
           <div className="absolute top-5 left-5 right-5 bottom-5 sm:top-0 sm:left-0 sm:right-0 sm:bottom-0">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/8pTfsV9ejEs"
+              src="https://www.youtube.com/embed/jnwMFhQDgFE"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

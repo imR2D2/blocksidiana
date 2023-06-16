@@ -13,7 +13,7 @@ const DarkModeSwitch = () => {
                 <Switch
                     checked={enabled}
                     onChange={setEnabled}
-                    className={`${enabled ? 'bg-gray-100 dark:bg-gray-700' : 'bg-gray-100 dark:bg-gray-700'
+                    className={`${enabled ? 'bg-gray-100 dark:bg-gray-900' : 'bg-gray-100 dark:bg-gray-900'
                     }
                         relative inline-flex h-[26px] w-[50px] shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75`}
                     >
