@@ -86,23 +86,19 @@ const Navbar = () => {
 				</div>
 
 				<Popover className="relative">
-					<Popover.Button className="block md-1:hidden focus:ring-none focus:outline-none mt-2.5 ml-3">
-						{open ? (
-							<img
-								onClick={() => {
-									setOpen(false);
-								}}
-								src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAN9JREFUSEvtleENAiEMRt9NoJvoCLqJG6gTOYKucBs4im5gvgQSEu+4VlD8Ab+bPvpoy0CjMzTi0sE/M99V/5XqNXAFzsB94WYH4AjsgUcu1vLGgm1CIiWcgwt6CbAR2JWC04SqYgqexjwDNGvHUrEunoO7oUpoBc/Bt4leU6VRvwc8BVfj6big3orjZVO1H0FrgecaLjt5JaqldxWyu+Ee8FT3ps3lglvBuZGxzPmbdgvYMqduuAUcV+bSyFRfmZrVG3AyfhKK054u/iS+8lVaVHdwFQNddRWNliTNVL8A3XRCH6P6Iy4AAAAASUVORK5CYII="
-							/>
-						) : (
-							<img
-								onClick={() => {
-									setOpen(true);
-								}}
-								src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAG9JREFUSEvtlckNwCAQA01nlEY6g8qC9rEfjigPKyBiF+CRRoYNWJSwiAuBPzMv1a46AbiJ3q+2a6aaCTVmx9kOTLQ8rtKq3Uskr7po1bNxmWpm8lvVTOiwS8/Jtfzvr7azyEzXp3Ex9T52SfX5qisn1AwfJnWg+AAAAABJRU5ErkJggg=="
-							/>
-						)}
-					</Popover.Button>
+				<Popover.Button className="block md-1:hidden focus:ring-none focus:outline-none mt-2.5 ml-3">
+					{open ? (
+						<svg onClick={() => {setOpen(false);}} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(107,33,168)" className="w-7 h-7">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					) : (
+						<svg onClick={() => {setOpen(true);}} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(107,33,168)" className="w-7 h-7">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+						</svg>
+					)}
+				</Popover.Button>
+
+
 
 					<Transition
 						as={Fragment}
@@ -114,7 +110,7 @@ const Navbar = () => {
 						leaveTo="opacity-0 translate-y-1"
 					>	
 						<Popover.Panel className="absolute -right-5 z-10 mt-2 w-screen">			
-							<div class="text-center block lg:hidden w-full border-b-2 border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 h-44">
+							<div class="text-center block lg:hidden w-full border-b-2 border-gray-300 dark:border-gray-800 bg-white dark:bg-gray-950 h-48">
 								<br/>
 								<NavLink to="/" className="text-lg hover:text-xl hover:font-semibold duration-500 text-black dark:text-whitee-900">
 									Home
@@ -133,7 +129,7 @@ const Navbar = () => {
 								</NavLink>
 								<br/>
 								<br/>
-
+								
 							</div>
 						</Popover.Panel>
 					</Transition>

@@ -1,6 +1,6 @@
 import React from "react";	
 import { Fade } from "@successtar/react-reveal";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import jua from "../../assets/img/bottonPlay.svg"
 import obsidiana from "../../assets/img/LogoHexagon.png"
 
