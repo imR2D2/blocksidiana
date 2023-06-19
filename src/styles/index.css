@@ -30,7 +30,7 @@
 
 /*NavBar config*/
 .navBar{
-    @apply mx-3 text-gray-900 dark:text-white text-sm font-medium leading-4 inline-flex border-b-2 border-white dark:border-black hover:border-gray-900 dark:hover:border-white transition duration-300 pb-1
+    @apply mx-3 text-gray-900 dark:text-white text-sm font-medium leading-4 inline-flex border-b-2 border-white dark:border-black hover:border-gray-900 dark:hover:border-white pb-1
 }
 
 /*Footer config*/

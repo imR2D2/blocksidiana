@@ -44,7 +44,7 @@ const Navbar = () => {
 	return (
 		<div
 			id="navbar"
-			className="fixed bg-white dark:bg-black w-full top-0 z-50 px-4 py-3 transition duration-300"
+			className="fixed bg-white dark:bg-black w-full top-0 z-50 px-4 py-3"
 		>
 			<div className="ml-6 -mt-2 flex flex-wrap items-center sm:flex-nowrap">
 				<Link to="/" className="-ml-4 mt-2 flex flex-1">
