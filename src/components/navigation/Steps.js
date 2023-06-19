@@ -36,7 +36,7 @@ export default function StepSection() {
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={650}>
+						<Fade up delay={550}>
 							<div className="text-center relative px-4">
 								<div className="relative">
 									<img
@@ -56,7 +56,7 @@ export default function StepSection() {
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={850}>
+						<Fade up delay={650}>
 							<div className="text-center relative px-4">
 								<div className="relative">
 									<img
@@ -76,7 +76,7 @@ export default function StepSection() {
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={1050}>
+						<Fade up delay={750}>
 							<div className="text-center relative px-4">
 								<img
 									src={deal}

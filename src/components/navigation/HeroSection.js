@@ -1,22 +1,15 @@
 import React from "react";	
 import { Fade } from "@successtar/react-reveal";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import jua from "../../assets/img/bottonPlay.svg"
-import obsidiana from "../../assets/img/LogoHexagon.png"
+import obsidiana from "../../assets/img/LogoHexagon.png";
 
 export default function HeroSection() {
-		//Scroll para seccion Presentation
-		const scrollToSection = (sectionId) => {
-			const section = document.getElementById(sectionId);
-			if (section) {
-				section.scrollIntoView({ behavior: "smooth" });
-			}
-		}
 	return (
-		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-white dark:bg-black'>
+		<section className='relative pt-[140px] bg-opacity-5 pb-24 bg-whitee-900 dark:bg-black'>
 			<span className="hidden xl:block z-20 absolute bg-purplee-400 right-16 sm:right-28 top-30 sm:top-36 opacity-[20%] dark:opacity-[4%] sm:opacity-[70%] h-[320px] sm:h-[450px] rounded-full blur-3xl animate-pulse bg-gradient-to-br from-primary to-secondary delay-700 duration-2000 aspect-square" />
 			<div className="relative">
-				<img
+				<img	
 					src={obsidiana}
 					alt="Imagen superpuesta"
 					className="z-40 absolute top-16 right-36 w-80 hidden xl:block"
@@ -25,7 +18,7 @@ export default function HeroSection() {
 
 			<div className="container px-4 mx-auto grid md:grid-cols-2">
 				<div className="flex items-center">
-					<div className="relative ml-8 sm:ml-0">
+					<div className="relative ml-0 sm:ml-8">
 						<Fade left>
 							<p className="text-center md:text-left text-lg text-purplee-800 font-semibold">SIGN UP TODAY</p>
 
@@ -48,7 +41,7 @@ export default function HeroSection() {
 									More Information
 								</Link>
 
-								<button onClick={() => scrollToSection("presentation")} className="md:ml-5 text-md py-2 px-4 border-none transition duration-800 text-black dark:text-whitee-900 flex items-center">
+								<button className="md:ml-5 text-md py-2 px-4 border-none transition duration-800 text-black dark:text-whitee-900 flex items-center">
 									<div className="w-7 h-7 mr-2">
 									<img src={jua} className="w-full h-full" alt="Presentation" />
 									</div>

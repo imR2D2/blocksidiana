@@ -41,7 +41,6 @@ const Navbar = () => {
 
 	const [open, setOpen] = useState(false);
 
-	
 	return (
 		<div
 			id="navbar"
