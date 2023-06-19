@@ -16,7 +16,7 @@ export default function HeroSection() {
 				/>
 			</div>
 
-			<div className="container px-4 mx-auto grid md:grid-cols-2">
+			<div className="container px-4 ml-20 mx-auto grid md:grid-cols-2">
 				<div className="flex items-center">
 					<div className="relative">
 						<Fade left>
