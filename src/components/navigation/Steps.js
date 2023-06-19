@@ -16,7 +16,7 @@ export default function StepSection() {
 						Get started in just a few minutes
 					</h2>
 					<div className="md:flex justify-center gap-20">
-						<Fade up>
+						<Fade up delay={450}>
 							<div className="text-center relative px-4">
 								<div className="relative">
 									<img
@@ -36,7 +36,7 @@ export default function StepSection() {
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={500}>
+						<Fade up delay={650}>
 							<div className="text-center relative px-4">
 								<div className="relative">
 									<img
@@ -56,7 +56,7 @@ export default function StepSection() {
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={500}>
+						<Fade up delay={850}>
 							<div className="text-center relative px-4">
 								<div className="relative">
 									<img
@@ -76,7 +76,7 @@ export default function StepSection() {
 								</p>
 							</div>
 						</Fade>
-						<Fade up delay={500}>
+						<Fade up delay={1050}>
 							<div className="text-center relative px-4">
 								<img
 									src={deal}
