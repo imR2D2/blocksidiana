@@ -1,6 +1,7 @@
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import obsidiana from "../../assets/img/obsidian.png";
+import obsidiana from "../../assets/img/logoBlack.png";
+import obsidianaBlanco from "../../assets/img/logoWhite.png";
 
 const navigation = {
 	solutions: [
@@ -61,7 +62,8 @@ const Footer = () => {
 						to="/"
 						className="inline-block justify-center nav-link space-y-8 xl:col-span-1"
 					>
-						<img src={obsidiana} className="w-12 sm:w-14"></img>
+						<img src={obsidiana} className="block dark:hidden mt-8 ml-0 sm:ml-8 w-28 sm:w-32 "></img>
+						<img src={obsidianaBlanco} className="hidden dark:block ml-0 sm:ml-8 w-28 sm:w-32"></img>
 						<div className="flex space-x-4">
 							{navigation.social.map((item) => (
 								<a

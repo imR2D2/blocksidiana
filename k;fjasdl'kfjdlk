@@ -1,0 +1,73 @@
+[33mcommit 670d6bf3fae1b4c08f79f6f32363a1a109952f9d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Tue Jun 13 09:39:27 2023 -0600
+
+    final
+
+[33mcommit 2f4e5db5c6f4da1234017b11aea17b0967b6ca72[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Tue Jun 13 03:29:28 2023 -0600
+
+    restore2
+
+[33mcommit ebca3958f3e531802be244d748fee9cd2a844eca[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Tue Jun 13 03:25:00 2023 -0600
+
+    restore
+
+[33mcommit c6d2bae088f1350b7f61cb163e3ccd89113e1e22[m
+Merge: e3cadc8 57787ba
+Author: imrtr <ahzbs@gmail.com>
+Date:   Tue Jun 13 03:13:44 2023 -0600
+
+    frame
+
+[33mcommit 57787ba98fc3791bc2460bd5b2590fb8abb7198c[m[33m ([m[1;31morigin/staging[m[33m, [m[1;32mstaging[m[33m)[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Tue Jun 13 03:07:52 2023 -0600
+
+    images
+
+[33mcommit e3cadc8e3fe2309fe67a36c8faacb2f2f47d2c3e[m
+Merge: 70e0bd4 2f08bbb
+Author: imrtr <ahzbs@gmail.com>
+Date:   Mon Jun 12 04:11:17 2023 -0600
+
+    Merge branch 'staging'
+
+[33mcommit 2f08bbb1705ab22ee204c542621288859cd1e732[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Mon Jun 12 04:10:54 2023 -0600
+
+    framerMotion
+
+[33mcommit 70e0bd4d4abc209463e511616c57d9077ca984fc[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Mon Jun 12 03:16:39 2023 -0600
+
+    backgroundWhite
+
+[33mcommit 27b077fc81a16348e98fc1977d91a9409f3f1878[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Mon Jun 12 03:13:05 2023 -0600
+
+    stonee
+
+[33mcommit 5b2643cb68e752d719c7f08814214691815d581b[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Sun Jun 11 19:23:22 2023 -0600
+
+    darkMode
+
+[33mcommit 52148409e5bfbadcd18fa3693c04d654e3764ffd[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Wed Jun 7 22:21:36 2023 -0600
+
+    segunda
+
+[33mcommit fc13051801e6d403304c7d0c20013d8ef2a2492d[m
+Author: imrtr <ahzbs@gmail.com>
+Date:   Wed Jun 7 22:05:47 2023 -0600
+
+    first commit

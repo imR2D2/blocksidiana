@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gradientColors: {
+        'transparent': 'transparent',
+        'white': '#ffffff',
+      },
       colors:{
         grayy: {
           300: "rgb(209,213,219)", 

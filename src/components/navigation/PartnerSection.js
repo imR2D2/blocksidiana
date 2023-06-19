@@ -8,7 +8,7 @@ import { Fade } from "@successtar/react-reveal";
 
 export default function PartnerSection() {
 	return (
-		<section className="px-6 dark:bg-gradient-to-b from-[black] to-[rgb(15,23,42)]">
+		<section className="px-6 dark:bg-gradient-to-b -mb-20 from-[black] to-[rgb(15,23,42)]">
 			<div className="rounded-3xl py-20">
 				<div className="container mx-auto">
 					<div className="text-center mb-4">

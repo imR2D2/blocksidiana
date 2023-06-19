@@ -15,6 +15,8 @@ const Contacto = () => {
     setMensaje("");
   };
 
+  
+
   return (
     <div className="dark:bg-gradient-to-b from-[black] to-[rgb(15,23,42)]">
       <br />
@@ -86,7 +88,7 @@ const Contacto = () => {
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 border-2 rounded-full shadow-sm text-base font-medium  border-gray-700 dark:border-white dark:hover:border-purplee-900  hover:bg-purplee-900 dark:hover:bg-purplee-900 hover:text-whitee-900 dark:hover:text-whitee-900 dark:text-whitee-900 transition dark: duration-1000"
+                className="w-full inline-flex items-center justify-center px-6 py-3 border-2 rounded-full shadow-sm text-base font-medium  border-gray-700 dark:border-white dark:hover:border-purplee-800  dark:hover:bg-purplee-800 hover:text-whitee-900 dark:hover:text-whitee-900 dark:text-whitee-900 transition dark: duration-1000"
               >
                 Send Email!
               </button>
